@@ -23,11 +23,11 @@
                   </div>
                   
                   <div class="name">{{user.username}} </div>
-                  <div class="job">{{user.userprofile.status}}</div>
-                  <div class="job">{{user.userprofile.location}}</div>
+                  <div class="status">{{user.userprofile.status}}</div>
+                  <div class="location">{{user.userprofile.location}}</div>
                   
                   <div class="actions">
-                      <button class="btn"><a style="text-decoration: None;" href="{% url 'update' %}">Edit Profile</button>
+                      <button class="btn"><a style="text-decoration: None;" href="{% url 'update' %}">Edit Profile</a></button>
                       <button class="btn">Change Password</button>
                   </div>
               </div>
